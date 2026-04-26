@@ -26,6 +26,11 @@ h2 {
   margin-bottom: 10px;
 }
 
+h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
 p {
   opacity: 0.8;
   padding: 25px;
@@ -161,6 +166,10 @@ p {
   border-radius: 15px;
 }
 
+.gallery-item {
+  text-align: center;
+}
+
 
 .service-item:hover {
   transform: translateX(10px);
@@ -240,4 +249,7 @@ p {
   justify-content: center;
   color: #000;
   font-size: 20px;
+}
+.zap-float:hover {
+  transform: scale(1.1);
 }
