@@ -6,7 +6,7 @@ botoes.forEach(btn => {
     e.preventDefault();
 
     const msg = encodeURIComponent("Olá! Quero agendar um horário");
-    window.open(`https://wa.me/5548984430593?text=${msg}`, '_blank');
+    window.open(`https://wa.me/555184299828?text=${msg}`, '_blank');
   });
 });
 
