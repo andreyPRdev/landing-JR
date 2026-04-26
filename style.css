@@ -36,6 +36,7 @@ p {
   padding: 25px;
 }
 
+
  .hero {
   text-align: center;
   padding: 150px 20px;
@@ -252,4 +253,86 @@ p {
 }
 .zap-float:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+
+  /* HERO */
+  .hero {
+    padding: 100px 20px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  /* BOTÃO */
+  .btn {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  /* CONTAINER */
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* CARDS */
+  .card {
+    width: 100%;
+  }
+
+  /* SERVICES */
+  .service-list {
+    padding: 0 10px;
+  }
+
+  .service-item {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  /* GALERIA */
+  .gallery-grid {
+    grid-template-columns: 1fr; /* 1 por linha */
+    gap: 15px;
+    padding: 20px;
+  }
+
+  /* TEXTOS */
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+   opacity: 0.8;
+  }
+
+  /* CTA */
+  .cta {
+    padding: 60px 20px;
+  }
+
+  /* WHATSAPP FLOAT */
+  .zap-float {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+
 }
