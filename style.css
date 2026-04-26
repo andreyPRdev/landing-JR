@@ -217,6 +217,27 @@ p {
   opacity: 0.6;
 }
 
+.address {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
 .zap {
     padding: 30px;
+}
+
+.zap-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 20px;
 }
