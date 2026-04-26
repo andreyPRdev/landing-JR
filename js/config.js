@@ -5,7 +5,7 @@ botoes.forEach(btn => {
   btn.addEventListener('click', (e) => {
     e.preventDefault();
 
-    const msg = encodeURIComponent("Olá! Quero agendar um serviço de estética automotiva.");
+    const msg = encodeURIComponent("Olá! Quero agendar um horário");
     window.open(`https://wa.me/5548984430593?text=${msg}`, '_blank');
   });
 });
