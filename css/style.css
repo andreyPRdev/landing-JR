@@ -247,10 +247,46 @@ p {
   opacity: 0.6;
 }
 
+/* Container do endereço */
 .address {
-  margin-top: 10px;
   font-size: 14px;
-  opacity: 0.7;
+  line-height: 1.6;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Link do mapa */
+.address a {
+  display: inline-block;
+  margin-top: 6px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.address a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Botão "Como chegar" */
+.btn-map {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+  background-color: #a70000;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.btn-map:hover {
+  background-color: #ff0202;
+  transform: translateY(-1px);
 }
 
 .zap {
